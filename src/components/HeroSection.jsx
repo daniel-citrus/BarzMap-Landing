@@ -1,3 +1,4 @@
+import collage from '../assets/K2_Calisthenics_Park.jpg';
 const highlights = [
     'Discover parks near you',
     'Join a growing outdoor community',
@@ -55,8 +56,8 @@ export default function HeroSection() {
                 </div>
                 <figure className='w-full overflow-hidden rounded-2xl border border-brand-primary/20 bg-white shadow-brand-xl'>
                     <img
-                        src='https://placehold.co/680x520?text=Outdoor+Training'
-                        alt='Athletes training outdoors at a calisthenics park'
+                        src={collage}
+                        alt='Collage of athletes training at calisthenics parks'
                         className='h-full w-full object-cover'
                         loading='lazy'
                     />

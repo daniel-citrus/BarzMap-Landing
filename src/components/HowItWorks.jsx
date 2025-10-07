@@ -1,3 +1,5 @@
+import BarzMapDemo from '../assets/Screenshot 2025-10-06 at 11.15.13 PM.png';
+
 const steps = [
     {
         title: 'Explore the Map',
@@ -22,7 +24,7 @@ export default function HowItWorks() {
             <div className='mx-auto flex w-full max-w-6xl flex-col gap-12 px-4 py-16 sm:px-6 lg:flex-row lg:items-start'>
                 <figure className='w-full overflow-hidden rounded-2xl border border-brand-primary/20 bg-brand-background shadow-lg lg:max-w-sm'>
                     <img
-                        src='https://placehold.co/520x620?text=Step+By+Step'
+                        src={BarzMapDemo}
                         alt='Steps to start using BarzMap illustrated on a map'
                         className='h-full w-full object-cover'
                         loading='lazy'

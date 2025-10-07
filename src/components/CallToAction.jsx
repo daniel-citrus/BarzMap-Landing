@@ -1,3 +1,4 @@
+import lsit from '../assets/north-boulder-parkfitness-court069.jpg';
 export default function CallToAction() {
     return (
         <section className='bg-brand-primary text-white'>
@@ -37,8 +38,8 @@ export default function CallToAction() {
                 </div>
                 <figure className='w-full overflow-hidden rounded-2xl border border-white/40 shadow-lg'>
                     <img
-                        src='https://placehold.co/640x480?text=Join+the+Movement'
-                        alt='Abstract silhouette of athletes training at sunset'
+                        src={lsit}
+                        alt='Person doing an l-sit'
                         className='h-full w-full object-cover'
                         loading='lazy'
                     />

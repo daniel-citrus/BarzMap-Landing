@@ -1,3 +1,4 @@
+import outdoor from '../assets/1_Upt1DIo3TjnbENn39qkywQ.jpg';
 const features = [
     {
         title: 'Interactive Map',
@@ -57,7 +58,7 @@ export default function FeaturesSection() {
                 </div>
                 <figure className='w-full overflow-hidden rounded-2xl border border-brand-primary/20 bg-white shadow-lg'>
                     <img
-                        src='https://placehold.co/520x640?text=BarzMap+Interface'
+                        src={outdoor}
                         alt='Mockup of the BarzMap product interface'
                         className='h-full w-full object-cover'
                         loading='lazy'

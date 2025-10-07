@@ -1,3 +1,4 @@
+import outdoorGym from '../assets/outdoor-public-gym-places-v0-xp7997afpund1.webp';
 const communityHighlights = [
     'Stories from athletes in over 40 cities',
     'Global map with live park submissions',
@@ -10,8 +11,8 @@ export default function CommunitySection() {
             <div className='mx-auto grid w-full max-w-6xl grid-cols-1 gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1fr,1fr] lg:items-start'>
                 <figure className='order-first w-full overflow-hidden rounded-2xl border border-brand-primary/20 bg-brand-background shadow-lg lg:order-none'>
                     <img
-                        src='https://placehold.co/600x720?text=Global+Community'
-                        alt='Collage of athletes training outdoors around the world'
+                        src={outdoorGym}
+                        alt='People working out at a Calisthenics park'
                         className='h-full w-full object-cover'
                         loading='lazy'
                     />
