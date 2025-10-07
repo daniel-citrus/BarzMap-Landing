@@ -1,4 +1,4 @@
-# 🧭 BarzMap Landing Page — Design Document  
+# BarzMap Landing Page — Design Document  
 **Version:** 1.0  
 **Goal:** Drive mailing list subscriptions for early users and future updates  
 **Build Stack:** React + Tailwind CSS (Vite)  
@@ -33,25 +33,25 @@ The **landing page** serves two main purposes:
 
 ## 3. Visual Direction & Branding
 
-### 🎨 Mood & Tone
+### Mood & Tone
 
 - **Energetic yet minimal.** Reflects the outdoor, movement-driven nature of calisthenics.  
 - **Community-centered.** Emphasize connection, discovery, and contribution.  
 - **Modern & trustworthy.** Clean UI that feels like a serious tool, not a gimmick.
 
-### 🌈 Color Palette
+###  Color Palette
 
 | Role | Color | HEX |
 |------|--------|------|
-| **Primary (Sky Blue)** | ![#00AEEF](https://placehold.co/15x15/00AEEF/00AEEF.png) | `#00AEEF` |
+| **Primary (Deep Blue)** | ![#005A9C](https://placehold.co/15x15/005A9C/005A9C.png) | `#005A9C` |
 | **Accent (Vibrant Green)** | ![#00C853](https://placehold.co/15x15/00C853/00C853.png) | `#00C853` |
-| **Dark Gray (Text/Base)** | ![#222222](https://placehold.co/15x15/222222/222222.png) | `#222222` |
+| **Slate (Text/Base)** | ![#1F2933](https://placehold.co/15x15/1F2933/1F2933.png) | `#1F2933` |
 | **Background Gray** | ![#F5F7FA](https://placehold.co/15x15/F5F7FA/F5F7FA.png) | `#F5F7FA` |
 | **Highlight Orange (CTA hover)** | ![#FFA726](https://placehold.co/15x15/FFA726/FFA726.png) | `#FFA726` |
 
-Color logic: blue evokes trust and exploration, green symbolizes health and growth, orange adds energy to CTAs.
+Color logic: deep blue delivers enough contrast for accessibility while still evoking trust and exploration, green symbolizes health and growth, orange adds energy to CTAs.
 
-### ✍️ Typography
+### Typography
 
 - **Headings:** `Poppins` – Bold, geometric, approachable.  
 - **Body:** `Inter` – Clean, readable, modern.  
@@ -60,7 +60,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
   - H2: `text-3xl font-semibold`  
   - Paragraph: `text-base text-gray-700 leading-relaxed`
 
-### 🧩 Imagery & Iconography
+### Imagery & Iconography
 
 - Use **real outdoor environments** (urban parks, beaches, community spaces).  
 - Favor **wide shots** with natural lighting.  
@@ -71,7 +71,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ## 4. Page Structure & Layout
 
-### 🏙️ Hero Section
+### Hero Section
 
 **Layout:**
 - Two-column layout (text left, image right on desktop; stacked on mobile).  
@@ -94,7 +94,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ---
 
-### ⚙️ How It Works
+### How It Works
 
 **Layout:** 3-column section with icons (mobile → vertical stack).
 
@@ -112,7 +112,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ---
 
-### 💪 Features
+### Features
 
 **Layout:**
 - Two-column grid with alternating image/text alignment (zigzag).
@@ -132,7 +132,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ---
 
-### 🌍 Community Section
+### Community Section
 
 **Layout:**
 - Center-aligned section with large testimonial carousel.  
@@ -152,7 +152,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ---
 
-### 🚀 Call to Action (CTA)
+### Call to Action (CTA)
 
 **Layout:**
 - Full-width band with high contrast.  
@@ -172,7 +172,7 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 
 ---
 
-### ⚫ Footer
+### Footer
 
 **Layout:**
 - Two-column: left (brand + short tagline), right (links).  
@@ -215,38 +215,4 @@ Color logic: blue evokes trust and exploration, green symbolizes health and grow
 - **Keyboard navigability:** Tab focus indicators for form fields and buttons.  
 - **Readable fonts:** Minimum body size `16px`.  
 - **Form validation:** Clear feedback for incorrect emails.  
-- **Animation preference:** Respect user `prefers-reduced-motion`.
-
----
-
-## 8. Next Steps
-
-| Deliverable | Description | Owner |
-|--------------|--------------|--------|
-| **Wireframes** | Low-fidelity sketches showing content structure. | Designer |
-| **High-Fidelity Mockups** | Visual design (desktop + mobile) in Figma. | Designer |
-| **Front-End Build** | Implement in React + Tailwind (Vite). Include Mailchimp or Supabase subscription endpoint. | Developer |
-| **Launch Page Copy** | Final polish on headlines, CTAs, and testimonials. | Marketing / Dev Team |
-| **Pre-Launch Automation** | Set up mailing list confirmation + thank-you page. | Developer |
-
----
-
-## 🧠 Example Hero Copy & Visual Intent
-
-> **Headline:**  
-> “The World’s Outdoor Gym Map.”  
->  
-> **Subtext:**  
-> “Discover parks, train outdoors, and connect with athletes worldwide. Join our list to get early access.”  
->  
-> **Button:**  
-> “Notify Me at Launch →”
-
-**Visual Mock:**
-- Background: Wide-angle shot of athletes on pull-up bars with natural lighting.  
-- Foreground: Map interface overlay with 3–5 glowing pins fading in.  
-- Motion: Slight parallax on scroll for depth.
-
----
-
-## 🧱 Text-Based Wireframe Layout Sketch
+- **Animation preference:** Respect user `prefers-reduced-motion`. 
