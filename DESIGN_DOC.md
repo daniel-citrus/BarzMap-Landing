@@ -22,12 +22,12 @@ The **landing page** serves two main purposes:
 
 ## 2. Target Audience
 
-| Segment | Description | Motivations |
-|----------|--------------|--------------|
-| **Calisthenics Enthusiasts** | People who already train outdoors and want to find new workout spots. | Discover new parks, meet other athletes, and contribute to a growing community. |
-| **Fitness & Wellness Seekers** | Gym-goers and runners interested in outdoor alternatives. | Try bodyweight workouts, enjoy outdoor training, and explore local parks. |
-| **Travelers / Nomads** | People who travel frequently and seek nearby training locations. | Stay consistent with workouts wherever they go. |
-| **Beginners / Prospective Athletes** | Those interested in starting calisthenics. | Find accessible parks and inspiration from real communities. |
+| Segment                              | Description                                                           | Motivations                                                                     |
+| ------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Calisthenics Enthusiasts**         | People who already train outdoors and want to find new workout spots. | Discover new parks, meet other athletes, and contribute to a growing community. |
+| **Fitness & Wellness Seekers**       | Gym-goers and runners interested in outdoor alternatives.             | Try bodyweight workouts, enjoy outdoor training, and explore local parks.       |
+| **Travelers / Nomads**               | People who travel frequently and seek nearby training locations.      | Stay consistent with workouts wherever they go.                                 |
+| **Beginners / Prospective Athletes** | Those interested in starting calisthenics.                            | Find accessible parks and inspiration from real communities.                    |
 
 ---
 
@@ -41,12 +41,12 @@ The **landing page** serves two main purposes:
 
 ###  Color Palette
 
-| Role | Color | HEX |
-|------|--------|------|
-| **Primary (Deep Blue)** | ![#005A9C](https://placehold.co/15x15/005A9C/005A9C.png) | `#005A9C` |
-| **Accent (Vibrant Green)** | ![#00C853](https://placehold.co/15x15/00C853/00C853.png) | `#00C853` |
-| **Slate (Text/Base)** | ![#1F2933](https://placehold.co/15x15/1F2933/1F2933.png) | `#1F2933` |
-| **Background Gray** | ![#F5F7FA](https://placehold.co/15x15/F5F7FA/F5F7FA.png) | `#F5F7FA` |
+| Role                             | Color                                                    | HEX       |
+| -------------------------------- | -------------------------------------------------------- | --------- |
+| **Primary (Deep Blue)**          | ![#005A9C](https://placehold.co/15x15/005A9C/005A9C.png) | `#005A9C` |
+| **Accent (Vibrant Green)**       | ![#00C853](https://placehold.co/15x15/00C853/00C853.png) | `#00C853` |
+| **Slate (Text/Base)**            | ![#1F2933](https://placehold.co/15x15/1F2933/1F2933.png) | `#1F2933` |
+| **Background Gray**              | ![#F5F7FA](https://placehold.co/15x15/F5F7FA/F5F7FA.png) | `#F5F7FA` |
 | **Highlight Orange (CTA hover)** | ![#FFA726](https://placehold.co/15x15/FFA726/FFA726.png) | `#FFA726` |
 
 Color logic: deep blue delivers enough contrast for accessibility while still evoking trust and exploration, green symbolizes health and growth, orange adds energy to CTAs.
@@ -187,24 +187,24 @@ Color logic: deep blue delivers enough contrast for accessibility while still ev
 
 ## 5. UX & Conversion Strategy
 
-| Principle | Application |
-|------------|--------------|
-| **Single Primary CTA** | Email subscription is the only action; avoid distractions. |
-| **Visual Hierarchy** | Bold headlines, contrasting CTA button colors, whitespace between sections. |
-| **Social Proof** | Testimonials, stats, and global map visualization establish credibility. |
-| **Repetition of CTA** | Include sign-up prompt in Hero, mid-page, and final section. |
-| **Emotion & Aspiration** | Use copy that evokes movement, discovery, and belonging. |
+| Principle                | Application                                                                 |
+| ------------------------ | --------------------------------------------------------------------------- |
+| **Single Primary CTA**   | Email subscription is the only action; avoid distractions.                  |
+| **Visual Hierarchy**     | Bold headlines, contrasting CTA button colors, whitespace between sections. |
+| **Social Proof**         | Testimonials, stats, and global map visualization establish credibility.    |
+| **Repetition of CTA**    | Include sign-up prompt in Hero, mid-page, and final section.                |
+| **Emotion & Aspiration** | Use copy that evokes movement, discovery, and belonging.                    |
 
 ---
 
 ## 6. Responsive Design Considerations
 
-| Device | Layout Adjustment |
-|---------|-------------------|
-| **Desktop** | Two-column hero, multi-column feature grids, large hero imagery. |
-| **Tablet** | Collapse features to single-column, ensure mailing form remains visible. |
-| **Mobile** | Stacked layout; CTAs always full-width; font sizes adjusted (`text-lg` → `text-base`). |
-| **Touch targets** | Buttons ≥ 44px height; ample padding for forms. |
+| Device            | Layout Adjustment                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| **Desktop**       | Two-column hero, multi-column feature grids, large hero imagery.                       |
+| **Tablet**        | Collapse features to single-column, ensure mailing form remains visible.               |
+| **Mobile**        | Stacked layout; CTAs always full-width; font sizes adjusted (`text-lg` → `text-base`). |
+| **Touch targets** | Buttons ≥ 44px height; ample padding for forms.                                        |
 
 ---
 

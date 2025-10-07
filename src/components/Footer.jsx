@@ -1,5 +1,3 @@
-import { useBrandColors, withOpacity } from '../theme/useBrandColors.js';
-
 const links = [
     { label: 'Privacy Policy', href: '#' },
     { label: 'Contact', href: '#' },
@@ -14,33 +12,20 @@ const socials = [
 ];
 
 export default function Footer() {
-    const colors = useBrandColors();
-    const sectionStyles = {
-        '--footer-bg': colors.dark,
-        '--footer-bottom': colors.footerBottom,
-        '--footer-text': colors.light,
-        '--footer-muted': withOpacity(colors.light, 0.7),
-        '--footer-subtle': withOpacity(colors.light, 0.6),
-        '--footer-hover': colors.primary,
-    };
-
     return (
-        <footer
-            className='text-[color:var(--footer-text)]'
-            style={sectionStyles}
-        >
-            <div className='bg-[color:var(--footer-bg)]'>
+        <footer className='text-white'>
+            <div className='bg-brand-dark'>
                 <div className='mx-auto flex w-full flex-col gap-6 px-4 py-10 sm:px-6 md:max-w-5xl md:flex-row md:items-start md:justify-between'>
                     <div className='space-y-3'>
                         <p className='text-lg font-semibold'>BarzMap</p>
-                        <p className='max-w-sm text-sm text-[color:var(--footer-muted)]'>
+                        <p className='max-w-sm text-sm text-white/70'>
                             Outdoor athletes, connected through a shared map of
                             parks, equipment, and community stories.
                         </p>
                     </div>
                     <div className='flex flex-col gap-6 text-sm md:flex-row md:gap-10'>
                         <div className='space-y-2'>
-                            <p className='font-semibold uppercase tracking-widest text-[color:var(--footer-subtle)]'>
+                            <p className='font-semibold uppercase tracking-widest text-white/60'>
                                 Follow
                             </p>
                             <ul className='space-y-1'>
@@ -48,7 +33,7 @@ export default function Footer() {
                                     <li key={item.label}>
                                         <a
                                             href={item.href}
-                                            className='transition-colors hover:text-[color:var(--footer-hover)]'
+                                            className='transition-colors hover:text-brand-primary'
                                         >
                                             {item.label}
                                         </a>
@@ -57,7 +42,7 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className='space-y-2'>
-                            <p className='font-semibold uppercase tracking-widest text-[color:var(--footer-subtle)]'>
+                            <p className='font-semibold uppercase tracking-widest text-white/60'>
                                 Links
                             </p>
                             <ul className='space-y-1'>
@@ -65,7 +50,7 @@ export default function Footer() {
                                     <li key={item.label}>
                                         <a
                                             href={item.href}
-                                            className='transition-colors hover:text-[color:var(--footer-hover)]'
+                                            className='transition-colors hover:text-brand-primary'
                                         >
                                             {item.label}
                                         </a>
@@ -76,7 +61,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='border-t border-white/10 bg-[color:var(--footer-bottom)] py-4 text-center text-xs text-[color:var(--footer-subtle)]'>
+            <div className='border-t border-white/10 bg-brand-footer py-4 text-center text-xs text-white/60'>
                 © {new Date().getFullYear()} BarzMap. All rights reserved.
             </div>
         </footer>
